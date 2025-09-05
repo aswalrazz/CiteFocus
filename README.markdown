@@ -1,11 +1,11 @@
 # CiteFocus App
 
-CiteFocus is a Streamlit-based web application designed for analyzing academic publications. It leverages data from uploaded CSV/Excel files and the OpenAlex API to provide insights into titles, authors, institutions, and concepts through interactive visualizations like bar charts, treemaps, and line charts. Users can upload datasets, search for specific keywords, and explore citation trends, author rankings, and concept distributions.
+CiteFocus is a Streamlit-based web application designed for analyzing academic publications. It leverages data from uploaded CSV/Excel files and the Open API to provide insights into titles, authors, institutions, and concepts through interactive visualizations like bar charts, treemaps, and line charts. Users can upload datasets, search for specific keywords, and explore citation trends, author rankings, and concept distributions.
 
 ## Features
 - **File Upload**: Upload CSV or Excel files containing publication data (e.g., titles, authors, citations).
 - **Keyword Search**: Filter uploaded data by keywords in titles or other columns.
-- **OpenAlex API Integration**: Fetch publication data based on title searches using the OpenAlex API.
+- **Open API Integration**: Fetch publication data based on title searches using the Open API.
 - **Data Analysis**:
   - Author rankings by citations and number of papers.
   - Institution rankings by citations and number of papers.
@@ -22,8 +22,8 @@ CiteFocus is a Streamlit-based web application designed for analyzing academic p
 
 ### Prerequisites
 - Python 3.8 or higher
-- Internet connection for OpenAlex API access
-- No API key required for OpenAlex (public API, but rate limits apply)
+- Internet connection for Open API access
+- No API key required for Open(public API, but rate limits apply)
 
 ### Setup
 1. Clone the repository:
@@ -60,12 +60,12 @@ The following dependencies are listed in `requirements.txt`:
    - Upload a CSV or Excel file with publication data (expected columns: `Title`, `Author`, `Year`, `Citations`, etc.).
 3. **Search Keywords**:
    - Enter keywords (e.g., "machine learning") to filter matching rows from the uploaded file.
-4. **Search with OpenAlex**:
-   - Enter a publication title (e.g., "Deep Learning for NLP") and click "Search With DataSparkLabs" to fetch data from the OpenAlex API.
+4. **Search with Open api**:
+   - Enter a publication title (e.g., "Deep Learning for NLP") to fetch data from the Open API.
 5. **View Results**:
    - Preview uploaded file data in a table.
    - Explore filtered data from keyword searches.
-   - Analyze OpenAlex data with tables and visualizations for:
+   - Analyze  data with tables and visualizations for:
      - Top authors by citations (bar chart and table).
      - Top institutions by citations (bar chart and table).
      - Citation distribution by author (treemap).
@@ -78,7 +78,7 @@ The following dependencies are listed in `requirements.txt`:
 ## Example
 - **Input**: Upload a CSV with columns: `Title`, `Author`, `Year`, `Citations`.
 - **Keyword Search**: Search for "machine learning" to filter relevant publications.
-- **OpenAlex Search**: Enter "Deep Learning for NLP" to fetch related data.
+   Search**: Enter "Deep Learning for NLP" to fetch related data.
 - **Output**:
   - **Table**: Extracted data (titles, authors, institutions, citations, concepts).
   - **Author Rankings**: Bar chart showing top authors by citations.
