@@ -125,8 +125,4 @@ Contributions are welcome! To contribute:
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For issues or suggestions, open an issue on GitHub or email your-email@example.com.
-
-## Acknowledgments
-- Powered by the [OpenAlex API](https://docs.openalex.org/) for academic publication data.
-- Built with Streamlit and Plotly for interactive visualizations.
+For issues or suggestions, open an issue on GitHub or email vaswal919@gmail.com
